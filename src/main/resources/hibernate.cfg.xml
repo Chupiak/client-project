@@ -1,0 +1,14 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.DB2Dialect</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/clients-number</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">21071978</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+
+    </session-factory>
+</hibernate-configuration>
+
+
